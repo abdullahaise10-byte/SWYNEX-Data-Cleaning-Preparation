@@ -1,52 +1,104 @@
-# Task 1 – Customer Sales Data Cleaning
+ SWYNEX Customer Sales Analysis – Final Project
 
-## Project Overview
+1. Problem Statement
 
-This project focuses on cleaning and preparing a raw customer sales dataset for analysis.
+The objective of this project is to clean, analyze, and visualize customer sales data to identify important sales patterns, trends, and business insights.
 
-The dataset was inspected for missing values, duplicate records, incorrect data types, and inconsistent values. The cleaned dataset was prepared using Microsoft Excel.
+The project combines data cleaning, exploratory data analysis, and interactive dashboard development.
 
-## Dataset
+2. Dataset Information
 
-The dataset contains customer sales and transaction information, including:
+The dataset contains customer transaction and sales information.
 
-* Transaction ID
-* Customer ID
-* Customer Name
-* Product
-* Category
-* Price Per Unit
-* Quantity
-* Discount
-* Total Spent
-* Order Date
-* City
-* State
+The main columns include:
 
-## Data Cleaning Performed
+- Transaction ID
+- Customer ID
+- Item
+- Category
+- Price Per Unit
+- Quantity
+- Discount
+- Total Spent
+- Order Date
+- City
+- State
 
-The following cleaning steps were performed:
+## 3. Data Cleaning
 
-1. Identified and removed duplicate transaction records.
-2. Reviewed missing values in important columns.
-3. Retained records with missing information when the information could not be reliably reconstructed.
-4. Calculated missing quantity values where they could be determined from the available price, discount, and total values.
-5. Corrected numeric columns so that price, quantity, discount, and total spent are stored as numeric values.
-6. Removed unnecessary/duplicate columns.
-7. Checked the relationship between price, quantity, discount, and total spent for consistency.
-8. Reviewed the final dataset to ensure it was suitable for further analysis.
+The raw dataset was cleaned using Microsoft Excel.
 
-## Files
+The cleaning process included:
 
-* `customer_sales_cleaned.xlsx` – cleaned customer sales dataset.
-* `README.md` – documentation of the cleaning process.
+- Identifying and removing duplicate transaction records
+- Checking missing values
+- Handling missing quantity values where they could be reliably calculated
+- Checking and correcting data types
+- Removing unnecessary columns
+- Checking sales calculations for consistency
+- Reviewing the final dataset before analysis
 
-## Tools Used
+ 4. Exploratory Data Analysis
 
-* Microsoft Excel
-* GitHub
+Exploratory Data Analysis (EDA) was performed using Microsoft Excel.
 
-## Outcome
+The analysis included:
 
-The raw customer sales dataset was cleaned and prepared for analysis by addressing duplicate records, missing values, data types, unnecessary columns, and data consistency issues.
+- Total sales
+- Average sales
+- Highest sale
+- Lowest sale
+- Total quantity sold
+- Average quantity
+- Total transactions
+- Sales by category
+- Sales by state
+- Quantity sold by category
+- Monthly sales trends
 
+PivotTables and charts were used to identify patterns and trends in the data.
+
+ 5. Power BI Dashboard
+
+An interactive sales dashboard was created using Microsoft Power BI.
+
+The dashboard includes:
+
+- Total Sales KPI
+- Total Transactions KPI
+- Average Sales KPI
+- Highest Sale KPI
+- Sales by Category
+- Sales by State
+- Monthly Sales Trend
+- State filter
+- Category filter
+
+The dashboard allows users to interact with the data using filters and quickly understand sales performance.
+
+ 6. Key Business Insights
+
+- Electric household essentials generated the highest sales among the analyzed categories.
+- Kerala recorded the highest sales among the analyzed states.
+- Milk Products had the highest quantity sold among the categories.
+- Monthly sales varied across the year, showing different sales patterns between months.
+- State and Category filters allow users to explore sales performance interactively.
+
+ 7. Tools Used
+
+- Microsoft Excel
+- Microsoft Power BI
+- GitHub
+
+ 8. Project Files
+
+- `cleaned_customer_sales1.xlsx` – cleaned customer sales dataset
+- `cleaned_customer_sales EDA.xlsx` – exploratory data analysis
+- `SWYNEX_Task3_Sales_Dashboard.pbix` – Power BI interactive dashboard
+- `README.md` – project documentation
+
+ 9. Conclusion
+
+This final project combines data cleaning, exploratory data analysis, data visualization, and interactive dashboard development.
+
+The project provided practical experience in using Excel and Power BI to prepare data, identify sales patterns, and communicate business insights through visualizations and an interactive dashboard.
